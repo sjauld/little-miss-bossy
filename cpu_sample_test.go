@@ -1,12 +1,12 @@
 package main
 
 import (
-  "testing"
+	"testing"
 )
 
 func TestCPUSample(t *testing.T) {
-  err, _ := cpuSample()
-  if err != nil {
-    t.Error(err)
-  }
+	err, _ := cpuSample()
+	if err != nil {
+		t.Error(err)
+	}
 }
